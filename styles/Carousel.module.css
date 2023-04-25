@@ -17,12 +17,19 @@
     top: 320px;
     color: #fff;
     cursor: pointer;
-    border: 1px dotted rgba(255, 255, 255, .3);
+    border: 1px solid #fff;
     position: absolute;
     font-size: 32px;
     min-width: 36px;
     border-radius: 50%;
     background-color: transparent;
+    opacity: .3;
+    transition: all 250ms;
+}
+.carousel button[type='button']:hover{
+    background-color: #fff;
+    opacity: 1;
+    color: #ff5800;
 }
 .prev {
     left: 150px
