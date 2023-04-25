@@ -1,0 +1,12 @@
+﻿id: 4KvTlXxuSk2PLSoupghP1g
+name: Technologies and Capabilities
+fields:
+  label:
+    value: Technologies and Capabilities
+    type: ShortText
+  link:
+    value: https://www.avanade.com/en/technologies
+    type: ShortText
+  menuImage:
+    value: []
+    type: Media

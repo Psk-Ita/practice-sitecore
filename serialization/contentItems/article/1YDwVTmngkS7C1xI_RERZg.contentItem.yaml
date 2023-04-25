@@ -1,0 +1,69 @@
+id: 1YDwVTmngkS7C1xI_RERZg
+name: Article 1
+fields:
+  title: 
+    value: Do what matters
+    type: ShortText
+  abstract:
+    value: When the power of people and the Microsoft ecosystem come together, we do what matters to make a genuine human impact
+    type: ShortText
+  body: 
+    value: >-
+      {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            ]
+          }
+        ]
+      }
+    type: RichText
+  cover:
+    value:
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Media",
+        "id": "cBH2Fdqi80eQGfHBcfIuiA",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/cBH2Fdqi80eQGfHBcfIuiA"
+      }
+    type: Media
+  articles:
+    value:
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "5XSyIKzM-02KvjaCz6kW4g",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/5XSyIKzM-02KvjaCz6kW4g"
+      }
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "6OYzv9OvM0mGjG82jOGYVg",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/6OYzv9OvM0mGjG82jOGYVg"
+      }
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "8vmPi7L5DUSSgce9p0jedw",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/8vmPi7L5DUSSgce9p0jedw"
+      }
+    type: Reference

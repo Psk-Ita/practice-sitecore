@@ -1,0 +1,39 @@
+id: article
+name:
+  en-US: Article
+description:
+  en-US: Something to share
+fields:
+- id: title
+  name:
+    en-US: Title
+  type: ShortText
+  required: true
+  helpText:
+    en-US: ''
+- id: abstract
+  name:
+    en-US: Abstract
+  type: ShortText
+  required: true
+  helpText:
+    en-US: ''
+- id: body
+  name:
+    en-US: Body
+  type: RichText
+  required: true
+  helpText:
+    en-US: ''
+- id: cover
+  name:
+    en-US: Cover
+  type: Media
+  required: true
+  helpText:
+    en-US: ''
+- id: articles
+  name: 
+    en-US: Articles
+  type: Reference
+  required: false 

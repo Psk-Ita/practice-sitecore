@@ -1,0 +1,12 @@
+﻿id: _zVlqWbwAkSx5-2BnoX_BQ
+name: About Avanade
+fields:
+  label:
+    value: About Avanade
+    type: ShortText
+  link:
+    value: https://www.avanade.com/en/about-avanade
+    type: ShortText
+  menuImage:
+    value: []
+    type: Media

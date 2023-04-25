@@ -1,0 +1,12 @@
+﻿id: SVVjc5FZaEuyKN7S6RRNtA
+name: Client Stories
+fields:
+  label:
+    value: Client Stories
+    type: ShortText
+  link:
+    value: https://www.avanade.com/en/clients
+    type: ShortText
+  menuImage:
+    value: []
+    type: Media

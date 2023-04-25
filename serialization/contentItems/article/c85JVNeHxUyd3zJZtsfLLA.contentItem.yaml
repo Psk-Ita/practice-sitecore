@@ -1,0 +1,69 @@
+id: c85JVNeHxUyd3zJZtsfLLA
+name: Article 2.2
+fields:
+  title: 
+    value: BLOG POST
+    type: ShortText
+  abstract:
+    value: Letting customers choose between human and digital
+    type: ShortText
+  body: 
+    value: >-
+      {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            ]
+          }
+        ]
+      }
+    type: RichText
+  cover:
+    value:
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Media",
+        "id": "y05z0-4bbUKZUMzMC-iesA",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/y05z0-4bbUKZUMzMC-iesA"
+      }
+    type: Media
+  articles:
+    value:
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "20OnoN3e-EKZiNKl3ZT2hA",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/20OnoN3e-EKZiNKl3ZT2hA"
+      }
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "A0l4qEauwUme_19C8Ns8cA",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/A0l4qEauwUme_19C8Ns8cA"
+      }
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "DwUckf9BeUa80K3Dcqm6Kw",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/DwUckf9BeUa80K3Dcqm6Kw"
+      }
+    type: Reference

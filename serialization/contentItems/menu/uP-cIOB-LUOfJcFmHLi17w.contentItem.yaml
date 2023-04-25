@@ -1,0 +1,12 @@
+﻿id: uP-cIOB-LUOfJcFmHLi17w
+name: Industries
+fields:
+  label:
+    value: Industries
+    type: ShortText
+  link:
+    value: https://www.avanade.com/en/industry
+    type: ShortText
+  menuImage:
+    value: []
+    type: Media

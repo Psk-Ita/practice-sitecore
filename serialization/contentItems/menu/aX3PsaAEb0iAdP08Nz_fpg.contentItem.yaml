@@ -1,0 +1,12 @@
+﻿id: aX3PsaAEb0iAdP08Nz_fpg
+name: Insights
+fields:
+  label:
+    value: Insights
+    type: ShortText
+  link:
+    value: https://www.avanade.com/en/thinking
+    type: ShortText
+  menuImage:
+    value: []
+    type: Media

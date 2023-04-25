@@ -1,0 +1,69 @@
+id: 6OYzv9OvM0mGjG82jOGYVg
+name: Article 1.2
+fields:
+  title: 
+    value: Client Stories
+    type: ShortText
+  abstract:
+    value: What matters to our clients
+    type: ShortText
+  body: 
+    value: >-
+      {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            ]
+          }
+        ]
+      }
+    type: RichText
+  cover:
+    value:
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Media",
+        "id": "th9ahFY2hUuZYq6zcsBjng",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/th9ahFY2hUuZYq6zcsBjng"
+      }
+    type: Media
+  articles:
+    value:
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "1YDwVTmngkS7C1xI_RERZg",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/1YDwVTmngkS7C1xI_RERZg"
+      }
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "5XSyIKzM-02KvjaCz6kW4g",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/5XSyIKzM-02KvjaCz6kW4g"
+      }
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "8vmPi7L5DUSSgce9p0jedw",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/8vmPi7L5DUSSgce9p0jedw"
+      }
+    type: Reference

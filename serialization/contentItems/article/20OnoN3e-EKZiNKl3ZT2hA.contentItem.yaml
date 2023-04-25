@@ -1,0 +1,69 @@
+id: 20OnoN3e-EKZiNKl3ZT2hA
+name: Article 2
+fields:
+  title: 
+    value: Banks need to find the balance between human and digital interactions
+    type: ShortText
+  abstract:
+    value: Banking must evolve to be digital by design and yet truly human
+    type: ShortText
+  body: 
+    value: >-
+      {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            ]
+          }
+        ]
+      }
+    type: RichText
+  cover:
+    value:
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Media",
+        "id": "G73btOg8GE-q1oK9E16QXw",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/G73btOg8GE-q1oK9E16QXw"
+      }
+    type: Media
+  articles:
+    value:
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "A0l4qEauwUme_19C8Ns8cA",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/A0l4qEauwUme_19C8Ns8cA"
+      }
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "c85JVNeHxUyd3zJZtsfLLA",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/c85JVNeHxUyd3zJZtsfLLA"
+      }
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "DwUckf9BeUa80K3Dcqm6Kw",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/DwUckf9BeUa80K3Dcqm6Kw"
+      }
+    type: Reference

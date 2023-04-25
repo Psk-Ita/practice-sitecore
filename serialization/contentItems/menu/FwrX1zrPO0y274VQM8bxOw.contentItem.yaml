@@ -1,0 +1,12 @@
+﻿id: FwrX1zrPO0y274VQM8bxOw
+name: CAREERS
+fields:
+  label:
+    value: CAREERS
+    type: ShortText
+  link:
+    value: https://www.avanade.com/en/career
+    type: ShortText
+  menuImage:
+    value: []
+    type: Media

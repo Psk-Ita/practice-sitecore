@@ -1,0 +1,76 @@
+id: u8EogAhl8Ee0ZzHiFUJoLg
+name: Article 3.4
+fields:
+  title: 
+    value: CLIENT
+    type: ShortText
+  abstract:
+    value: Data insights helps Metal Exchange Corporation recycle
+    type: ShortText
+  body: 
+    value: >-
+      {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+              }
+            ]
+          }
+        ]
+      }
+    type: RichText
+  cover:
+    value:
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Media",
+        "id": "Sopo9cmP3k6y8O2ZfMUN5A",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/Sopo9cmP3k6y8O2ZfMUN5A"
+      }
+    type: Media
+  articles:
+    value:
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "FiPJqRYhl0mrGAoJcmnBjg",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/FiPJqRYhl0mrGAoJcmnBjg"
+      }
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "NvzEQcN0Fk2EbyE2MNMqxg",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/NvzEQcN0Fk2EbyE2MNMqxg"
+      }
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "Ouw_k6STx0GvefgM4ozbZg",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/Ouw_k6STx0GvefgM4ozbZg"
+      }
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "rTMgYaWI9k2YLIgTYXO9PA",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/rTMgYaWI9k2YLIgTYXO9PA"
+      }
+    type: Reference

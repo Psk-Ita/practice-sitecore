@@ -1,0 +1,12 @@
+﻿id: OSQicScOMEKNxsx3sqew0w
+name: Solutions
+fields:
+  label:
+    value: Solutions
+    type: ShortText
+  link:
+    value: https://www.avanade.com/en/solutions
+    type: ShortText
+  menuImage:
+    value: []
+    type: Media

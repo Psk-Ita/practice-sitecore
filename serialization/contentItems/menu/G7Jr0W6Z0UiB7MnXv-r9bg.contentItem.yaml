@@ -1,0 +1,26 @@
+﻿id: G7Jr0W6Z0UiB7MnXv-r9bg
+name: Avanade
+fields:
+  label:
+    value: Avanade
+    type: ShortText
+  link:
+    value: https://www.avanade.com
+    type: ShortText
+  menuImage:
+    value:
+    - >-
+      {
+        "id": "CJPzBClookmTYzw2p1ZO1g",
+        "type": "Link",
+        "relatedType": "Media",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/CJPzBClookmTYzw2p1ZO1g"
+      }
+    - >-
+      {
+        "id": "cfaPFlonrU24wSy3S6lD1g",
+        "type": "Link",
+        "relatedType": "Media",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/cfaPFlonrU24wSy3S6lD1g"
+      }
+    type: Media

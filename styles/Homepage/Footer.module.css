@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  flex: 1;
+  padding-bottom: 2rem;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 40px;
+  color: lightgray;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.footerBox {
+  background: #ff5800;
+  height: 128px;
+  width: 120%;
+}
+
+.footerBox p {
+  display: flex;
+  justify-content: center;
+}
+
+.footerBox image{
+  display: flex;
+  justify-content: center;
+}
+
+.footerBox a{
+  position: absolute;
+  left: 10%;    
+}
+
+.Waves {
+  width: 120%;
+  margin: 0 -10%;
+  margin-top: 34px;
+}
+
+.CopyRight {
+  text-align: right;
+  margin-top: 23px;
+  width: 90%;
+  font-weight: 300;
+  color:#6d7886;
+  font-size: 12px;
+}
