@@ -14,7 +14,6 @@ type Props = {
 
 const FooterLinksComponent = ({menuResults}: Props) => {
 
-    
     const renderMenu = (menu: Menu) : JSX.Element => {
 
         let logo : Media | undefined;
@@ -24,13 +23,18 @@ const FooterLinksComponent = ({menuResults}: Props) => {
             else if (x.name.match(/waves/gim)) waves = x;
         });
 
-
+        let key = `${Math.random()}`.substring(2);
+        let obj = <React.Fragment />;
         const logoimage = logo ? <Image key={logo.id} src={logo.fileUrl} alt="" width={470} height={197} className={stylesHp.Logo} /> : <React.Fragment />
         const wavesimage = waves ? <Image key={waves.id} src={waves.fileUrl} alt="" width={1902} height={94} className={stylesHp.Waves} /> : <React.Fragment />
 
-        const obj = menu.link ? <Link key={menu.id} href={menu.link} className={stylesHp.FooterLinksItem}>{logoimage}</Link> : logoimage;
-
-        return <React.Fragment>
+        if(menu.link){
+            key = menu.id;
+            obj = <Link href={menu.link} className={stylesHp.FooterLinksItem}>{logoimage}</Link>
+        } else {
+            obj = logoimage;
+        }
+        return <React.Fragment key={key}>
             {obj}{wavesimage}
         </React.Fragment>
     }

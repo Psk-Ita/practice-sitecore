@@ -32,8 +32,13 @@ fields:
   required: true
   helpText:
     en-US: ''
+- id: parent
+  name: 
+    en-US: Partent
+  type: Reference
+  required: false 
 - id: articles
   name: 
     en-US: Articles
   type: Reference
-  required: false 
+  required: false

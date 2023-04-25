@@ -63,25 +63,6 @@ export const HOMEPAGE_QUERY = `
   }
 `;
 
-  /*
-  heroBanner {
-    results{
-      ${MEDIA_QUERY}
-    }
-  }
-  recipeTitle
-  recipeSectionText
-  recipes {
-    total
-    results {
-      __typename
-      ... on Recipe {
-        ${RECIPE_QUERY}
-      }
-    }    
-  } */
-
-
 export const ALL_HOMEPAGE_QUERY = `{ 
   data: allHomepage {
     results{

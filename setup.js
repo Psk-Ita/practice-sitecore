@@ -60,6 +60,19 @@ async function startSetup(){
         console.log(color.WARNING,'Media Item v0_sPIYpUk-iyk6uDSNXpg already exists');
     }
 
+    exists = await media.mediaItemExists(client, 'M8R1VG6BzUisvsqy5An48A');
+    if (!exists) {
+        await mediaAPI.createMediaItemWithAPI(token,'flame.jpg', //fileName
+                            'image/jpeg', //fileType
+                            '52567', //fileSize
+                            'M8R1VG6BzUisvsqy5An48A', //Media Item Id: leave empty when not needed, e.g. ''
+                            'background',//Media Item Name.
+                            'background'); //Media Item Description
+        console.log(color.SUCCESS,'Media Item created: M8R1VG6BzUisvsqy5An48A');
+    } else {
+        console.log(color.WARNING,'Media Item M8R1VG6BzUisvsqy5An48A already exists');
+    }
+    
     // logo - footer
     exists = await media.mediaItemExists(client, 'CJPzBClookmTYzw2p1ZO1g');
     if (!exists) {

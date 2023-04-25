@@ -43,7 +43,7 @@ fields:
         "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/jkO6Rzoq9kiIIkYI3nSvog"
       }
     type: Media
-  articles:
+  parent:
     value:
     - >-
       {
@@ -51,6 +51,16 @@ fields:
         "relatedType": "Content",
         "id": "20OnoN3e-EKZiNKl3ZT2hA",
         "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/20OnoN3e-EKZiNKl3ZT2hA"
+      }
+    type: Reference
+  articles:
+    value:
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "A0l4qEauwUme_19C8Ns8cA",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/A0l4qEauwUme_19C8Ns8cA"
       }
     - >-
       {

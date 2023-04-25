@@ -34,22 +34,15 @@ fields:
       {
         "type": "Link",
         "relatedType": "Content",
-        "id": "5XSyIKzM-02KvjaCz6kW4g",
-        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/5XSyIKzM-02KvjaCz6kW4g"
+        "id": "20OnoN3e-EKZiNKl3ZT2hA",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/20OnoN3e-EKZiNKl3ZT2hA"
       }
     - >-
       {
         "type": "Link",
         "relatedType": "Content",
-        "id": "6OYzv9OvM0mGjG82jOGYVg",
-        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/6OYzv9OvM0mGjG82jOGYVg"
-      }
-    - >-
-      {
-        "type": "Link",
-        "relatedType": "Content",
-        "id": "8vmPi7L5DUSSgce9p0jedw",
-        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/8vmPi7L5DUSSgce9p0jedw"
+        "id": "FiPJqRYhl0mrGAoJcmnBjg",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/FiPJqRYhl0mrGAoJcmnBjg"
       }
     type: Reference
   background:  

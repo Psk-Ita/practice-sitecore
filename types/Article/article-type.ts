@@ -1,11 +1,14 @@
-import { Media, MediaResults } from "../Common/media-type"
+import { JSONContent } from "@tiptap/react";
+import { MediaResults } from "../Common/media-type"
 
-type Article = {
-    id: string
-    body: string
-    title: string
-    abstract: string
-    cover: MediaResults
+export type Article = {
+    id: string;
+    body: JSONContent;
+    title: string;
+    cover: MediaResults;
+    parent: ArticleResults;
+    abstract: string;
+    articles?: ArticleResults | null;
 }
 export default Article
 

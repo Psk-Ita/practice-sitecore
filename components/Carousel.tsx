@@ -27,26 +27,26 @@ export const Carousel : React.FC<CarouselProps> = ({articles}) => {
         })
     },[articles.total]);
 
-    const {others, article, itemWidth} = useMemo(() => {
+    const {list, article, itemWidth} = useMemo(() => {
         if(tmr.current){
             clearTimeout(tmr.current)
         }
 
         const {results} = articles;
 
-        const others = [...results];
-        const article = others.splice(index, 1)[0];
+        const list = [...results];
+        const article = list[index];
 
         let itemWidth = 100;
-        if(others.length > 0) {
-            itemWidth = 100 / others.length;
+        if(list.length > 0) {
+            itemWidth = 100 / list.length;
         }
         
         tmr.current = setTimeout(() => {
             change(+1);
         }, 9999);
         
-        return { others, article, itemWidth };
+        return { list, article, itemWidth };
     }, [articles, index, change])
 
     return (<React.Fragment>
@@ -56,8 +56,8 @@ export const Carousel : React.FC<CarouselProps> = ({articles}) => {
             <h3>{article.abstract}</h3>        
             <button type="button" className={styles.next} onClick={() => change(+1)}>{'>'}</button>
         </div>
-        <div className={styles.others}>
-            {others .map(x => <div key={x.id} style={{flexBasis : itemWidth}} className={styles.preview}>
+        <div className={styles.list}>
+            {list.map(x => <div key={x.id} style={{flexBasis : itemWidth}} className={styles.preview}>
                 <Link href={`/articles/${x.id}`}>
                     <Image src={x.cover.results?.[0].fileUrl}  alt={x.title} width={400} height={200} />
                     <div className={styles.caption}>
